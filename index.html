@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Domain Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .nav-button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Public Domain Library</h1>
+  <p>Choose a category to explore:</p>
+  <div class="button-container">
+    <button class="nav-button" onclick="location.href='books.html'">Books</button>
+    <button class="nav-button" onclick="location.href='movies.html'">Movies</button>
+    <button class="nav-button" onclick="location.href='music.html'">Music</button>
+    <button class="nav-button" onclick="location.href='art.html'">Art</button>
+    <button class="nav-button" onclick="location.href='misc.html'">Miscellaneous</button>
+  </div>
+</body>
+</html>
