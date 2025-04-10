@@ -22,8 +22,3 @@ Each button on the homepage links to a separate HTML page for that category.
 ## Font
 
 This site uses the [Merriweather](https://fonts.google.com/specimen/Merriweather) typeface via Google Fonts:
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
